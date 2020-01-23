@@ -1,4 +1,4 @@
-# ua-fandub-dashboard
+# ua-fandub
 
 ## Project setup
 ```
