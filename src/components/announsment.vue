@@ -16,7 +16,7 @@
                                 target="_blank"
                                 style="text-decoration: none;"
                             >
-                                <v-btn outlined color="info">Звертатися до: {{ item.from }}</v-btn>
+                                <v-btn text color="info">Звертатися до: {{ item.from }}</v-btn>
                             </a>
                         </v-card-actions>
                 </v-card>
@@ -46,6 +46,27 @@ export default {
       },
       {
         id: 3,
+        title: 'Потрібен перекладач',
+        text: 'Потрібен перекладач для аніме Удаване кохання ТВ-2(Nisekoi tv-2)',
+        category: 'Translate',
+        from: '@Baka_shinji'
+      },
+      {
+        id: 4,
+        title: 'Шукаю редактора',
+        text: 'Шукаю редактора на аніме Hajime no Ippo (наразі це 50 серій, переклад триває)',
+        category: 'SUB',
+        from: '@MadFrenzyRabbit'
+      },
+      {
+        id: 5,
+        title: 'Потрібні сабери',
+        text: 'Потрібні сабери на проект "Сомалі та Лісовий Дух".',
+        category: 'SUB',
+        from: '@sobad_mp4'
+      },
+      {
+        id: 6,
         title: 'Потрібен перекладач',
         text: 'Потрібен перекладач для аніме Удаване кохання ТВ-2(Nisekoi tv-2)',
         category: 'Translate',
